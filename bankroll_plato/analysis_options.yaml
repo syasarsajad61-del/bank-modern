@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    unused_import: ignore
+    constant_identifier_names: ignore
+  exclude:
+    - build/**
+    - android/**
+    - web/**
+linter:
+  rules:
+    constant_identifier_names: false
+    prefer_single_quotes: true
